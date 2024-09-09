@@ -29,7 +29,9 @@ int main()
 	std::cout << a1->data << std::endl;
 	std::cout << a1->left->data << std::endl;*/
 
-	NRL_traversal(a1);
+	NRL_traversal_cout(a1);
+	std::cout << number_of_nodes(a1);
+	std::cout << "    " << height(a1);
 
 	//удаление узлов
 	delete a4;
